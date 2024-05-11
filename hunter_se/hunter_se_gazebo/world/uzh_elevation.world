@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='ASCII'?>
+<sdf version="1.7">
+  <world name="uzh_elevation">
+    <physics type="ode">
+      <!-- <real_time_factor>1</real_time_factor> -->
+      <max_step_size>0.001</max_step_size>
+      <real_time_update_rate>0</real_time_update_rate>
+    </physics>
+    <include>
+      <uri>model://uzh_elevation</uri>
+    </include>
+    <include>
+      <uri>model://sun</uri>
+    </include>
+  </world>
+</sdf>
